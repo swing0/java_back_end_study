@@ -333,6 +333,7 @@ x += 4 等价于 x = x + 4
 			<td>（A &lt;= B）为真。</td>
 		</tr>
 </tbody></table>  
+
 #### 5.4逻辑运算符  
 设布尔值A为真，B为假  
 <table><tbody>
@@ -352,13 +353,15 @@ x += 4 等价于 x = x + 4
 			</td>
 		</tr>
 </tbody></table>  
+
 #### 5.5三元运算符  
 condition ? expression1:expressionw2  
+
 如果condition为true，则返回expression1，如果condition为false，则返回expression2.  
 
 ```java
 //设x=1，y=2
-x < y ? x : y4
+x < y ? x : y
 //结果会返回x
 ```  
 #### 5.6运算符的优先级
@@ -413,7 +416,5 @@ x < y ? x : y4
 			<td>左到右</td>
 		</tr>
 </tbody></table>
-### 6字符串
-```
 
-```
+### 6字符串
